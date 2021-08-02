@@ -45,3 +45,27 @@
 #         print('%d*%d=%d' % (i, j, i * j), end='\t')
 #     print()
 #输入一个正整数判断是不是素数（素数指的是只能被1和自身整除到大于1的整数
+# 素数只能被1和自身整除
+# source = int(input('请输入一个正整数： '))
+# for i in range(2,source +1):
+#     if source % i == 0:
+#         print('%d 不是一个素数' % source)
+#         break
+#     else:
+#         print('%d 是一个素数' % source)
+#         break
+# 两个数的最大公约数是两个数的公共因子中最大的那个数；
+# 两个数的最小公倍数则是能够同时被两个数整除的最小的那个数。
+
+# s1 = int(input("输入第一个数字： "))
+# s2 = int(input("输入第二个数字： "))
+# if s1>s2:
+#     s1,s2 = s2,s1
+# max_GY = []
+# for i in range(s1,0,-1):#a 到0，采用倒着来就是-1
+#     if s1 % i == 0 and s2 % i == 0:
+#         max_GY.append(i)
+#         print('%d和%d的最大公约数是%d' % (s1, s2, i))
+#         print('%d和%d的最小公倍数是%d' % (s1, s2, s1 * s2 // i))
+#         break
+
